@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "./Componenet/Header";
+import './App.css';
+import Navbar from "./Componenet/Navbar";
+import TypingBox from "./Componenet/TypingBox";
+
 
 const App=() => {
 
   return(
     <div className="App"> 
-      <Header/>
+      <Navbar/>
+      <TypingBox/>
+
       
+
     </div>
   )
 }
