@@ -52,21 +52,31 @@
   column-gap: 1rem;
 }
 
-.typingBox{
+.textBox{
   display:flex;
   justify-content:center;
   align-items:center;
-  flex-wrap: wrap;
+
   
   background: transparent;
-  padding: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+
   color: #ffffff;
+  max-width: 90%;
+  max-height: 100%;
+  font-weight: 600;
+  font-family: 'Poppins';
 }
 
-.typingBox input{
+.textBox textarea{
   border: none;
   outline:none;
   width: 100%;
-  height:5rem;
+  height: 100%;
+
+  font-size: xx-large;
+  
   
 }
